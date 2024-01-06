@@ -11,7 +11,7 @@ git config --global user.email "[이메일주소]" : email 등록
 mkdir [폴더 이름] : 폴더 생성  
 rmdir [폴더 이름] : 폴더 삭제  
 cd [폴더 이름] : 폴더로 이동  
-git init : main branch 생성 -> git bash 현재 폴더 명에 branch 이름(main) 추가
+git init : main branch 생성 -> git bash 현재 폴더명에 branch 이름(main) 추가
 
 - 3) stage에 올리기  
 Git add -A  
@@ -20,7 +20,7 @@ Git add -A
 Git add [파일 이름] : 파일 하나하나를 지정
 
 - 4) stage에 올라간 상태 확인  
-git status: stage에 올라간 파일과 안 올라간 파일을 보여줌
+git status : stage에 올라간 파일과 안 올라간 파일을 보여줌
 
 - 5) commit 하기
 git commit -m "메세지" : 스테이지에 올라간 파일을 commit (stage에 파일이 올라가 있어야 함)
