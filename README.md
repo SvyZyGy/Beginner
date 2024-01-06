@@ -28,6 +28,7 @@ git log : 현재 저장된 commit list를 보여줌
 
 - 6) 로컬 저장소(git) -> 원격 저장소(git hub) push 하기
 git remote add origin [git 온라인 저장소 주소] : origin에 온라인(remote)저장소 주소를 등록(add)
+git push origin main : origin에 main branch를 업로드
 
 - 7) 원격 저장소의 최신 file 현행화시키기
 git pull [git repository 이름] [branch 이름] : origin의 변경사항 현행화
