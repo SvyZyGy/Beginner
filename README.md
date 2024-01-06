@@ -22,13 +22,13 @@ Git add [파일 이름] : 파일 하나하나를 지정
 - 4) stage에 올라간 상태 확인  
 git status : stage에 올라간 파일과 안 올라간 파일을 보여줌
 
-- 5) commit 하기
-git commit -m "메세지" : 스테이지에 올라간 파일을 commit (stage에 파일이 올라가 있어야 함)
+- 5) commit 하기  
+git commit -m "메세지" : 스테이지에 올라간 파일을 commit (stage에 파일이 올라가 있어야 함)  
 git log : 현재 저장된 commit list를 보여줌
 
-- 6) 로컬 저장소(git) -> 원격 저장소(git hub) push 하기
-git remote add origin [git 온라인 저장소 주소] : origin에 온라인(remote)저장소 주소를 등록(add)
+- 6) 로컬 저장소(git) -> 원격 저장소(git hub) push 하기  
+git remote add origin [git 온라인 저장소 주소] : origin에 온라인(remote)저장소 주소를 등록(add)  
 git push origin main : origin에 main branch를 업로드
 
-- 7) 원격 저장소의 최신 file 현행화시키기
+- 7) 원격 저장소의 최신 file 현행화시키기  
 git pull [git repository 이름] [branch 이름] : origin의 변경사항 현행화
